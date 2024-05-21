@@ -1,0 +1,9 @@
+[package]
+name = "kitsu_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.6.0"
+reqwest = { version = "0.12.4", features = ["json"] }
+serde = { version = "1.0.202", features = ["derive"] }
